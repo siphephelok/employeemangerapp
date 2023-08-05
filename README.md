@@ -1,27 +1,21 @@
-# Employeemangerapp
+Employee Management Web Application
+This web application allows users to manage employee data efficiently. The application provides features to edit, add, delete, and search for employees, making it convenient for HR personnel or managers to handle employee information effectively.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.0.
+Technologies Used
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The application has been built using the following technologies:
 
-## Code scaffolding
+HTML: For structuring the user interface and content.
+JavaScript: For implementing interactive features and handling user actions.
+Java: For server-side processing and database management.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Features
 
-## Build
+Add Employee: Users can add new employees to the system by providing necessary details such as name, job title, department, contact information, etc.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Edit Employee: Existing employee information can be easily updated, enabling users to keep employee records up to date.
 
-## Running unit tests
+Delete Employee: If an employee leaves the organization or any other reason, users can delete their record from the system.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Search Employee: The application allows users to search for specific employees based on criteria like name, job title, or department.
